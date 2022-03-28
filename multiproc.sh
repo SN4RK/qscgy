@@ -10,6 +10,6 @@ ulimit -n 999999
 echo Attack started
 for ((i=1;i<=$process;i++))
 do
-  $atk_cmd >/dev/null &
+  $ack >/dev/null &
   sleep 0.1
 done
